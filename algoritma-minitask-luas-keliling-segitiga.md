@@ -3,10 +3,11 @@
 1. Mulai
 2. Masukkan jari-jari sebagai 'r'
 3. Jika 'r'' habis dibagi 7, maka gunakan 'phi' sebagai 22/7
-4. Jika tidak gunakan 'phi sebgai 3.14
+4. Jika tidak gunakan 'phi sebagai 3.14
 5. Hitung luas dengan 'phi' dikali r kuadrat
 6. Hitung keliling dengan '2 dikali phi' dikali r
-7. Selesai
+7. Tampilkan luas dan keliling lingkaran
+8. Selesai
 
 ## FLowchart
 ```mermaid
@@ -18,6 +19,7 @@
     e@{shape: lean-r, label: "phi = 3.14"}
     f@{shape: rect, label: "luas = phi x r x r"}
     g@{shape: rect, label: "keliling = 2 x phi x r"}
+    h@{shape: lean-r, label: '"Luas dan keliling Lingkaran"'}
     x@{shape: dbl-circ, label: "Stop"}
 
     a --> b
@@ -27,7 +29,8 @@
     d --> f
     e --> f
     f --> g
-    g --> x 
+    g --> h
+    h --> x 
 
 
 ```
