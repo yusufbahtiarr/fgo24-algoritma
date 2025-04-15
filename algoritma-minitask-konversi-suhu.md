@@ -24,3 +24,18 @@ e --> f
 f --> x
 
 ```
+```psuedocode
+DECLARE Celcius: REAL
+DECLARE Kelvin : REAL
+DECLARE Fahrenheit: REAL
+DECLARE Reamur: REAL
+
+INPUT Celcius
+Kelvin <- Celcius + 273
+Fahrenheit <- (9/5 x Celcius) + 32
+Reamur <- 4/5 * Celcius
+
+OUTPUT "Hasil Konversi suhu Celcius ke Kelvin adalah: ", Kelvin
+OUTPUT "Hasil Konversi suhu Celcius ke Fahrenheit adalah: ", Fahrenheit
+OUTPUT "Hasil Konversi suhu Celcius ke Reamur adalah: ", Reamur
+```
