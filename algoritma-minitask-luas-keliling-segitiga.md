@@ -1,6 +1,5 @@
 # Algoritma MiniTask - Membuat Algoritma Menghitung Luas dan Keliling Lingkaran
 
-## Menghitung luas lingkaran
 1. Mulai
 2. Masukkan jari-jari sebagai 'r'
 3. Jika 'r'' habis dibagi 7, maka gunakan 'phi' sebagai 22/7
