@@ -31,6 +31,25 @@
     f --> g
     g --> h
     h --> x 
-
-
 ```
+
+```pseudocode
+DECLARE r: REAL
+DECLARE phi: REAL
+DECLARE luas: REAL
+DECLARE keliling: REAL
+
+INPUT r
+
+IF r % 7 == 0 THEN
+    phi <- 22/7
+ELSE
+    phi <- 3.14
+ENDIF
+
+luas <- phi x r x r
+keliling <- 2 x phi x r
+
+OUTPUT "Luas Lingkaran: ", luas
+OUTPUT "Keliling Lingkaran: ", keliling
+````
