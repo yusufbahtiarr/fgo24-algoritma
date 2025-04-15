@@ -6,7 +6,7 @@
 4. Jika tidak, maka angka 'X' tersebut bilangan ganjil
 5. Selesai
 
-## Flowchart
+## Flowchart 1
 ```mermaid
 flowchart LR
 
@@ -24,7 +24,7 @@ c --FALSE--> e
 d --> x
 e --> x
 ```
-## Psuedocode
+## Psuedocode 2
 ```pseudocode
 DECLARE X: INTEGER
 
@@ -37,6 +37,7 @@ ELSE
 ENDIF
 
 ```
+## Flowchart 2
 ```mermaid
 flowchart LR
 
@@ -58,6 +59,7 @@ d --> f
 e --> f
 f --> x
 ```
+## Psuedocode 2
 ```pseudocode
 DECLARE X: INTEGER
 DECLARE RESULT: STRING
