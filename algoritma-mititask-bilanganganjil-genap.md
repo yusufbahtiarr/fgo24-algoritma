@@ -30,7 +30,7 @@ DECLARE X: INTEGER
 
 INPUT X
 
-IF X % == 0 THEN
+IF X MOD 2 == 0 THEN
     OUTPUT <- "Bilangan Genap"
 ELSE
     OUTPUT <- "Bilangan Ganjil"
@@ -64,7 +64,7 @@ DECLARE RESULT: STRING
 
 INPUT X
 
-IF X % == 0 THEN
+IF X MOD 2 == 0 THEN
     RESULT <- "Genap"
 ELSE
     RESULT <- "Ganjil"
