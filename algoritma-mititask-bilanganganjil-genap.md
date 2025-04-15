@@ -11,14 +11,14 @@
     flowchart TD
         A((Mulai))
         B[/Input Angka X/]
-        C{Dibagi 2?}
+        C{X % 2 == 0?}
         CGA[/Bilangan Genap/]
         CGI[/Bilangan Ganjil/]
         D(((Selesai)))
         A --> B
         B --> C
-        C -- Sisa 0 --> CGA
-        C -- Sisa 1 --> CGI
+        C -- ya --> CGA
+        C -- Tidak --> CGI
         CGA --> D
         CGI --> D
 ```
