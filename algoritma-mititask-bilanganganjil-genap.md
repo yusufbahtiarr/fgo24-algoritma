@@ -8,17 +8,18 @@
 
 ## Flowchart
 ```mermaid
-    flowchart TD
-        A((Mulai))
-        B[/X/]
-        C{X % 2 == 0?}
-        CGA[/Bilangan Genap/]
-        CGI[/Bilangan Ganjil/]
-        D(((Selesai)))
-        A --> B
-        B --> C
-        C -- ya --> CGA
-        C -- Tidak --> CGI
-        CGA --> D
-        CGI --> D
+    flowchart LR
+        a@{shape: circle, label: "start"} 
+        b@{shape: lean-r, label: "X"} 
+        c{x % 2 == 0} 
+        d@{shape: lean-r, label: '"Genap"'}
+        e@{shape: lean-r, label: '"Ganjil"'} 
+        x@{shape: dbl-circ, label: "stop"}
+    
+        a --> b
+        b --> c
+        c --TRUE--> d
+        c --FALSE--> e
+        d --> x
+        e --> x
 ```
