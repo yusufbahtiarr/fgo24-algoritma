@@ -44,8 +44,8 @@ a@{shape: circle, label: "start"}
 dk@{shape: rect, label: "X, RESULT"}
 b@{shape: lean-r, label: "X"}
 c@{shape: diamond, label: "X % 2 == 0"}
-d@{shape: rect, label: "RESULT = Genap"}
-e@{shape: rect, label: "RESULT = Ganjil"}
+d@{shape: rect, label: RESULT = "Bilangan Genap"}
+e@{shape: rect, label: RESULT = "Bilangan Ganjil"}
 f@{shape: lean-r, label: '"RESULT"'}
 x@{shape: dbl-circ, label: "stop"}
 
@@ -65,12 +65,12 @@ DECLARE RESULT: STRING
 INPUT X
 
 IF X MOD 2 == 0 THEN
-    RESULT <- "Genap"
+    RESULT <- "Bilangan Genap"
 ELSE
-    RESULT <- "Ganjil"
+    RESULT <- "Bilangan Ganjil"
 ENDIF
 
-OUTPUT "Bilangan ", RESULT
+OUTPUT RESULT
 
 ```
 
