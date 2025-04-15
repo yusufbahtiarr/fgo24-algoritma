@@ -8,19 +8,20 @@
 
 ## Flowchart
 ```mermaid
-    flowchart LR
-    a@{shape: circle, label: "start"} 
-    b@{shape: lean-r, label: "X"} 
-    c@{shape: diamond, label: "x % 2 == 0"} 
-    d@{shape: lean-r, label: '"Genap"'}
-    e@{shape: lean-r, label: '"Ganjil"'} 
-    x@{shape: dbl-circ, label: "stop"}
+flowchart LR
 
-    a --> b
-    b --> c
-    c --TRUE--> d
-    c --FALSE--> e
-    d --> x
-    e --> x
+a@{shape: circle, label: "start"} 
+b@{shape: lean-r, label: "X"} 
+c@{shape: diamond, label: "x % 2 == 0"} 
+d@{shape: lean-r, label: '"Genap"'}
+e@{shape: lean-r, label: '"Ganjil"'} 
+x@{shape: dbl-circ, label: "stop"}
+
+a --> b
+b --> c
+c --TRUE--> d
+c --FALSE--> e
+d --> x
+e --> x
 ```
 
