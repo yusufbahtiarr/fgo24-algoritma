@@ -10,7 +10,7 @@
 ```mermaid
 flowchart LR
 
-a@{shape: circle, label: "start"} 
+a@{shape: circle, label: "start"}
 b@{shape: lean-r, label: "X"} 
 c@{shape: diamond, label: "x % 2 == 0"} 
 d@{shape: lean-r, label: '"Genap"'}
