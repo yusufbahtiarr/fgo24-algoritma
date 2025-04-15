@@ -2,7 +2,7 @@
 
 1. Mulai
 2. Input Angka 'X'
-3. Apakah angka 'X' dibagi 2 hasilnya 0?, maka angka 'X' bilangan genap.
+3. Jika angka 'X' dibagi 2 hasilnya 0?, Maka angka 'X' tersebut bilangan genap.
 4. Jika tidak, maka angka 'X' tersebut bilangan ganjil
 5. Selesai
 
@@ -31,9 +31,9 @@ DECLARE X: INTEGER
 INPUT X
 
 IF X MOD 2 == 0 THEN
-    OUTPUT <- "Bilangan Genap"
+    OUTPUT "Bilangan Genap"
 ELSE
-    OUTPUT <- "Bilangan Ganjil"
+    OUTPUT "Bilangan Ganjil"
 ENDIF
 
 ```
