@@ -46,7 +46,7 @@ b@{shape: lean-r, label: "X"}
 c@{shape: diamond, label: "X % 2 == 0"}
 d@{shape: rect, label: "RESULT = Genap"}
 e@{shape: rect, label: "RESULT = Ganjil"}
-f@{shape: lean-r, label: RESULT}
+f@{shape: lean-r, label: '"RESULT"'}
 x@{shape: dbl-circ, label: "stop"}
 
 a --> dk
