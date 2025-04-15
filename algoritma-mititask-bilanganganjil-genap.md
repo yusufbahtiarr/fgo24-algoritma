@@ -10,7 +10,7 @@
 ```mermaid
     flowchart TD
         A((Mulai))
-        B[/Input Angka X/]
+        B[/X/]
         C{X % 2 == 0?}
         CGA[/Bilangan Genap/]
         CGI[/Bilangan Ganjil/]
