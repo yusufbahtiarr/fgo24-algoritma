@@ -24,7 +24,7 @@ c --FALSE--> e
 d --> x
 e --> x
 ```
-
+## Psuedocode
 ```pseudocode
 DECLARE X: INTEGER
 
@@ -34,7 +34,7 @@ IF X MOD 2 == 0 THEN
     OUTPUT <- "Bilangan Genap"
 ELSE
     OUTPUT <- "Bilangan Ganjil"
-END IF
+ENDIF
 
 ```
 ```mermaid
@@ -68,7 +68,7 @@ IF X MOD 2 == 0 THEN
     RESULT <- "Genap"
 ELSE
     RESULT <- "Ganjil"
-END IF
+ENDIF
 
 OUTPUT "Bilangan ", RESULT
 
