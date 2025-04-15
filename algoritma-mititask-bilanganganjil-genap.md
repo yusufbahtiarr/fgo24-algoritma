@@ -1,7 +1,24 @@
-## Minitask algoritma menentukan bilangan ganjil dan genap
+## MiniTask Algoritma Menentukan Bilangan Ganjil dan Genap
 
 1. Mulai
-2. Siapkan angka yang akan di identifikasi ganjil genapnya
-3. Angka di bagi dengan 2
-4. Apakah angka jika dibagi 2 hasilnya 0?, maka angka tersebut bilangan genap, jika tidak maka angka tersebut bilangan ganjil
+2. Input Angka 'X'
+3. Apakah angka 'X' dibagi 2 hasilnya 0?, maka angka 'X' bilangan genap.
+4. Jika tidak, maka angka 'X' tersebut bilangan ganjil
 5. Selesai
+
+## Flowchart
+```mermaid
+    flowchart TD
+        A((Mulai))
+        B[/Input Angka X/]
+        C{Dibagi 2?}
+        CGA[/Bilangan Genap/]
+        CGI[/Bilangan Ganjil/]
+        D(((Selesai)))
+        A --> B
+        B --> C
+        C --Ya --> CGA
+        C --Tidak --> CGI
+        CGA --> D
+        CGI --> D
+```
