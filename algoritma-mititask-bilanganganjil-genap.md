@@ -2,7 +2,7 @@
 
 1. Mulai
 2. Input angka 'X'
-3. Jika angka 'X' dibagi 2 hasil sisa baginya 0, Maka angka 'X' tersebut bilangan genap.
+3. Jika angka 'X' dibagi 2 sisa hasil baginya 0, maka angka 'X' tersebut bilangan genap.
 4. Jika tidak, maka angka 'X' tersebut bilangan ganjil
 5. Selesai
 
