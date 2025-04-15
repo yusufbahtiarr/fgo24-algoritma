@@ -24,7 +24,7 @@ c --FALSE--> e
 d --> x
 e --> x
 ```
-## Psuedocode 2
+## Psuedocode 1
 ```pseudocode
 DECLARE X: INTEGER
 
