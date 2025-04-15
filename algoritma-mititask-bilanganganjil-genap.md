@@ -17,8 +17,8 @@
         D(((Selesai)))
         A --> B
         B --> C
-        C --Ya --> CGA
-        C --Tidak --> CGI
+        C -- Sisa 0 --> CGA
+        C -- Sisa 1 --> CGI
         CGA --> D
         CGI --> D
 ```
